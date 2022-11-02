@@ -1,0 +1,196 @@
+/* ------------------------- Mobile Version : 500px ------------------------*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.skip-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .skip-links a{
+    position: absolute;
+    top: -3em;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .skip-links a:focus {
+    top: 0;
+  }
+
+.logo { /* adjusts logo size for mobile */ 
+    width: 20%;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50px;
+} 
+
+li, a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #480474;
+
+}
+
+.fa-brands { /* styles socials in black according to mock-up */
+    color: black;
+    font-size: 18px;    
+}
+
+.socials li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav_links{ 
+    list-style: none;
+} 
+
+nav a {
+    color: white;
+}
+
+.nav_links li { /* displays in line to have them in a row */
+    display: inline-block;
+    padding: 0px 20px;
+    border: 1px solid black;
+    background-color: black;
+    padding: 10px;
+    margin-right: 10px
+
+}
+
+body {
+    background-color: #e0ec8c;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+main { /* sets margin to leave space on the sides for mobile */
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.homebox {
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 1rem;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #480474;
+    padding: 40px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: sans-serif;
+    color: #e0ec8c;
+    margin: 20px 0 20px 0;
+}
+
+.btn-shop { 
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+@keyframes swing {
+
+    0% {
+       transform: scale(0.9);
+    }
+  
+    100% {
+      transform: scale(1.1);
+    }
+  }
+  
+  .btn-shop{
+    animation: swing 3s 1s infinite ease-in-out;
+  }
+
+.btn-shop:hover {
+    background-color: #e0ec8c;
+}
+
+footer {
+    background-color:#222;
+    height: 125px;
+    color: white;
+    width: 100%;
+    padding: 25px 30px 15px 15px;
+    margin-top: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*-------------------------------------- Desktop -------------------------------- */
+
+@media screen and (min-width:850px) {
+    .logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    main { /* sets margin to leave space on the sides for pictures */
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+    
+    h1 {
+        font-size: 80px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+
+    .btn-shop { /* increases font and padding for desktop */
+        font-size: 30px;
+        color: white;
+        border: none;
+        font-weight: bold;
+        padding: 25px;
+        border-radius: 50px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    footer {
+            height: 85px;
+            width: 100%;
+            padding: 15px 20px 50px 20px;
+            margin-top: 80px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+    }
+
+}
+
