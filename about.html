@@ -17,7 +17,7 @@
         <li><a href="#main">Skip to main content</a></li>
       </ul>
     <header> 
-        <img class="logo" src="images/logo.png" alt="cakelicious logo">
+        <img src="images/logo.png" class="logo" alt="cakelicious logo">
         <nav id="nav">     
              <ul class="nav_links">
                 <li><a href="index.html">Home</a></li>
@@ -36,7 +36,13 @@
     <div class="container"> <!-- sets a container to center content-->
         <main>
             <section class="about"> <!--To style the about section on css grid or flex-->
-                <img class="aboutimg" src="images/about.jpg" alt="about"> <!--adds class to resize the img-->
+                <img
+                srcset="images/about-300_x_200.jpg 300w,
+                        images/about-400_x_350.jpg 400w"
+                sizes="(max-width: 500px)  300px,
+                       (max-width: 4000px) 400px"   
+                src="images/about.jpg" class="aboutimg" alt="about">    <!-- adds class to center image-->
+
                 <div class="abouttxt">
                 <h2>About Us</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae veniam vero vel ratione accusantium? Accusamus officia minima obcaecati architecto porro consequuntur maxime quasi nam quibusdam, incidunt quis et sunt fuga </p> <br>
