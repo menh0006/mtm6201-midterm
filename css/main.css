@@ -121,7 +121,7 @@ h2 {
 @keyframes swing {
 
     0% {
-       transform: scale(0.9);
+       transform: scale(0.8);
     }
   
     100% {
@@ -135,6 +135,7 @@ h2 {
 
 .btn-shop:hover {
     background-color: #e0ec8c;
+    color: black;
 }
 
 footer {
