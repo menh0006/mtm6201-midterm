@@ -167,7 +167,7 @@ footer {
         height: 100px;
     }
 
-    main { /* sets margin to leave space on the sides for pictures */
+    main { /* sets margin to center content */
         margin-left: 250px;
         margin-right: 250px;
     }
@@ -181,7 +181,7 @@ footer {
 
     header{ /* grid display to distribute the space according to the mock-up */
         display: grid;
-        grid-template-columns: repeat(3, 10% 65% 25%);
+        grid-template-columns: repeat(3,20% 50% 20%);
         grid-template-rows: repeat(1, 1fr);
         align-items: center;
         padding: 50px;
@@ -227,6 +227,33 @@ footer {
 
 /* ------------------------- About Page- Mobile Version: 500px ------------------------*/
 
+main { /* sets margin to center content */
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.aboutimg {
+    height: 300px;
+    width: 350px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: center;
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #480474;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
 
 
 
