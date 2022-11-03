@@ -172,11 +172,33 @@ footer {
         margin-right: 250px;
     }
     
-    h1 {
+    h1 { /* increases headers font size for desktop */
         font-size: 80px;
     }
     h2 {
         font-size: 40px;
+    }
+
+    header{ /* grid display to distribute the space according to the mock-up */
+        display: grid;
+        grid-template-columns: repeat(3, 10% 65% 25%);
+        grid-template-rows: repeat(1, 1fr);
+        align-items: center;
+        padding: 50px;
+    }
+
+
+    .fa-brands { /* increases social icons size for desktop */
+        color: black;
+        font-size: 28px;    
+    }
+    nav ul{
+        display: flex;
+        text-align: left;
+        justify-content: space-evenly;
+    }
+    nav li{
+        text-align: center;
     }
 
     .btn-shop { /* increases font and padding for desktop */
