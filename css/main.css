@@ -77,10 +77,6 @@ body {
     margin: 0 auto;
     max-width: 1200px;
 }
-main { /* sets margin to leave space on the sides & center content */
-    margin-left: 50px;
-    margin-right: 50px;
-}
 
 .homebox {
     border: 1px solid black;
@@ -170,8 +166,13 @@ footer {
         margin-left: 250px;
         margin-right: 250px;
     }
-    
-    h1 { /* increases headers font size for desktop */
+
+    .homebox {
+        margin: 0 auto;
+        margin-top: 50px;
+        width: 800px;
+    }
+    h1 { /* increases headings font size for desktop */
         font-size: 80px;
     }
     h2 {
@@ -238,11 +239,6 @@ main { /* sets margin to center content */
 .container {
     margin: 0 auto;
     max-width: 1200px;
-}
-
-.aboutimg {
-    height: 200px;
-    width: 300px;
 }
 
 .teamh2 {
@@ -331,8 +327,6 @@ hr {
     }
     .aboutimg {
         margin-right: 30px;
-        height: 350px;
-        width: 400px;
     }
 
     .team {
