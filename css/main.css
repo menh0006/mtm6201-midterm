@@ -1,4 +1,4 @@
-/* ------------------------- Home Page- Mobile Version : 500px ------------------------*/
+/* ------------------------- Home Page- Mobile Version ------------------------*/
 
 * {
     box-sizing: border-box;
@@ -159,7 +159,7 @@ footer {
 
 /*-------------------------------------- Home Page- Desktop -------------------------------- */
 
-@media screen and (min-width:850px) {
+@media screen and (min-width:1300px) {
     .logo {
         width: 100px;
         height: 100px;
@@ -228,7 +228,7 @@ footer {
 
 }
 
-/* ------------------------- About Page- Mobile Version: 500px ------------------------*/
+/* ------------------------- About Page- Mobile Version ------------------------*/
 
 main { /* sets margin to center content */
     margin-left: 50px;
@@ -263,9 +263,13 @@ main { /* sets margin to center content */
     margin-bottom: 20px;
 }
 
-.tomimg, .aliciaimg {
-    height: 350px;
-    width: 400px;
+.tomimg {
+    /* height: 300px;
+    width: 300px; */
+    margin-left: 35px;
+}
+.aliciaimg {
+    margin-left: 35px;
 }
 h3{
     margin-bottom: 10px;
@@ -314,8 +318,8 @@ hr {
     gap: 20px;
 }
 
-/* ------------------------- About Page- Desktop Version: 500px ------------------------*/
-@media screen and (min-width:850px) {
+/* ------------------------- About Page- Desktop Version ------------------------*/
+@media screen and (min-width:1300px) {
 
     .about {
         display: flex;
@@ -338,8 +342,8 @@ hr {
     gap: 20px;
     }
 
-    .aliciaimg, .tomimg { /* adds margin to center image */
-        margin-left: 60px;
+    .aliciaimg, .tomimg { /* increases margin to center image for desktop */
+        margin-left: 50px;
     }
 
     .alicia, .tom { /* increases padding for desktop */
