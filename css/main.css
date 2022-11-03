@@ -247,7 +247,7 @@ main { /* sets margin to center content */
     color:#222;
 }
 
-.about {
+.about { /* styles about section using flex to stay consistent with the scroll down layout for mobile */
     display: flex;
     flex-direction: column;
     border: 1px solid black;
@@ -305,7 +305,7 @@ hr {
     padding: 10px;
     background-color: #ad7dcd;
 }
-.team {
+.team { /* similarly to about: scroll down layout using grid */
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
