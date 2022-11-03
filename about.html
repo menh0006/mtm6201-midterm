@@ -35,7 +35,7 @@
 
     <div class="container"> <!-- sets a container to center content-->
         <main>
-            <section class="about"> <!--To style the about section on css grid or flex-->
+            <section class="about" role="main"> <!--To style the about section on css grid or flex-->
                 <img
                 srcset="images/about-300_x_200.jpg 300w,
                         images/about-400_x_350.jpg 400w"
@@ -43,7 +43,7 @@
                        (max-width: 4000px) 400px"   
                 src="images/about.jpg" class="aboutimg" alt="about">    <!-- adds class to center image-->
 
-                <div class="abouttxt">
+                <div class="abouttxt" role="contentinfo">
                 <h2>About Us</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae veniam vero vel ratione accusantium? Accusamus officia minima obcaecati architecto porro consequuntur maxime quasi nam quibusdam, incidunt quis et sunt fuga </p> <br>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sapiente quos iusto minima nobis! Dignissimos, quae? Esse saepe architecto veritatis! Dolores eaque veritatis vero illo doloremque voluptas praesentium possimus sapiente.</p> <br>
@@ -51,7 +51,7 @@
                 </div>
             </section>  
 
-            <section class="teamsection">
+            <section class="teamsection" role="complementary">
                 <h2 class="teamh2">Our Team</h2>
                 <div class="team"> <!-- needs a grid layout-->
                     <div class="alicia">
@@ -62,15 +62,15 @@
                                (max-width: 4000px) 400px"   
                         src="images/alicia.jpg"
                         class="aliciaimg"  alt="alicia">
-                        
+                    </div>
             
-                         <div class="alicia-text">
-                             <h3>Alicia Smith</h3>
-                             <h4>Chef & Owner</h4>
-                             <hr>
-                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta expedita, mollitia vero provident, fugiat iure ex quas enim libero alias repellendus numquam aut culpa, laborum corporis perspiciatis dolores illo sapiente?</p>
-                         </div>
-                     </div>
+                     <div class="alicia-text">
+                        <h3>Alicia Smith</h3>
+                        <h4>Chef & Owner</h4>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta expedita, mollitia vero provident, fugiat iure ex quas enim libero alias repellendus numquam aut culpa, laborum corporis perspiciatis dolores illo sapiente?</p>
+                    </div>
+               
 
                     <div class="tom"> 
                          <img
@@ -80,15 +80,15 @@
                                 (max-width: 4000px) 400px"   
                          src="images/tom.jpg"
                          class="tomimg"  alt="tom">
+                    </div>    
 
-
-                        <div class="tom-text">
-                            <h3>Tom Crooks</h3>
-                            <h4>Chef & Co-Owner</h4>
-                            <hr>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, odio. Est minus eos iure debitis ex non reiciendis iste, in quia ea, quasi nihil maxime dolorum alias error facere ipsam.</p>
-                        </div>
-                    </div> 
+                    <div class="tom-text">
+                        <h3>Tom Crooks</h3>
+                        <h4>Chef & Co-Owner</h4>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, odio. Est minus eos iure debitis ex non reiciendis iste, in quia ea, quasi nihil maxime dolorum alias error facere ipsam.</p>
+                    </div>
+                
                 </div>
             </section>
         </main> 
