@@ -1,4 +1,4 @@
-/* ------------------------- Mobile Version : 500px ------------------------*/
+/* ------------------------- Home Page- Mobile Version : 500px ------------------------*/
 
 * {
     box-sizing: border-box;
@@ -79,7 +79,7 @@ body {
     margin: 0 auto;
     max-width: 1200px;
 }
-main { /* sets margin to leave space on the sides for mobile */
+main { /* sets margin to leave space on the sides & center content */
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -138,6 +138,14 @@ h2 {
     color: black;
 }
 
+ul li:hover { 
+    background-color: #e0ec8c;
+}
+
+nav a:hover {
+    color: black;
+}
+
 footer {
     background-color:#222;
     height: 125px;
@@ -151,7 +159,7 @@ footer {
     align-items: center;
 }
 
-/*-------------------------------------- Desktop -------------------------------- */
+/*-------------------------------------- Home Page- Desktop -------------------------------- */
 
 @media screen and (min-width:850px) {
     .logo {
@@ -195,3 +203,9 @@ footer {
 
 }
 
+/* ------------------------- About Page- Mobile Version: 500px ------------------------*/
+
+
+
+
+/* ------------------------- About Page- Desktop Version: 500px ------------------------*/
