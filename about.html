@@ -49,7 +49,15 @@
                 <h2 class="teamh2">Our Team</h2>
                 <div class="team"> <!-- needs a grid layout-->
                     <div class="alicia">
-                        <img class="aliciaimg" src="images/alicia.jpg" alt="alicia">
+                        <img
+                        srcset="images/alicia-300_x_300.jpg 300w,
+                                images/alicia-400_x_350.jpg 400w"
+                        sizes="(max-width: 500px)  300px,
+                               (max-width: 4000px) 400px"   
+                        src="images/alicia.jpg"
+                        class="aliciaimg"  alt="alicia">
+                        
+            
                          <div class="alicia-text">
                              <h3>Alicia Smith</h3>
                              <h4>Chef & Owner</h4>
@@ -59,7 +67,15 @@
                      </div>
 
                     <div class="tom"> 
-                        <img class="tomimg"  src="images/tom.jpg" alt="tom">
+                         <img
+                         srcset="images/tom-300_x_300.jpg 300w,
+                                 images/tom-400_x_350.jpg 400w"
+                         sizes="(max-width: 500px)  300px,
+                                (max-width: 4000px) 400px"   
+                         src="images/tom.jpg"
+                         class="tomimg"  alt="tom">
+
+
                         <div class="tom-text">
                             <h3>Tom Crooks</h3>
                             <h4>Chef & Co-Owner</h4>
