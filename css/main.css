@@ -270,10 +270,12 @@ h3{
     margin-top: 5px;
     text-align: center;
     font-weight: bold;
+    font-size: 22px;
 }
 
 h4 {
     font-style: italic;
+    font-size: 18px;
 }
 hr {
     width: 80px;
@@ -288,6 +290,10 @@ hr {
     text-align: center;
 }
 
+.team p {
+    font-weight: bold;
+    font-size: 16px;
+}
 .tom {
     border: solid 1px black;
     padding: 10px;
@@ -302,8 +308,39 @@ hr {
 .team {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     gap: 20px;
 }
 
 /* ------------------------- About Page- Desktop Version: 500px ------------------------*/
+@media screen and (min-width:850px) {
+
+    .about {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .abouttxt {
+        align-self: flex-start;
+    }
+    .aboutimg {
+        margin-right: 30px;
+    }
+
+
+
+    .team {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 20px;
+    }
+
+    .aliciaimg, .tomimg { /* adds margin to center image */
+        margin-left: 60px;
+    }
+
+    .alicia, .tom { /* increases padding for desktop */
+        padding: 20px;
+    }
+}
