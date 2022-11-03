@@ -163,6 +163,7 @@ footer {
     .logo {
         width: 100px;
         height: 100px;
+        margin-left: 150px;
     }
 
     main { /* sets margin to center content */
@@ -188,6 +189,7 @@ footer {
 
     .fa-brands { /* increases social icons size for desktop */
         font-size: 28px;
+        margin-left: 50px;
     }
     
    
@@ -239,8 +241,8 @@ main { /* sets margin to center content */
 }
 
 .aboutimg {
-    height: 300px;
-    width: 350px;
+    height: 200px;
+    width: 300px;
 }
 
 .teamh2 {
@@ -325,9 +327,9 @@ hr {
     }
     .aboutimg {
         margin-right: 30px;
+        height: 350px;
+        width: 400px;
     }
-
-
 
     .team {
     display: grid;
