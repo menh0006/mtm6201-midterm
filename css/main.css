@@ -255,6 +255,9 @@ main { /* sets margin to center content */
     font-size: 16px;
 }
 
-
+.tomimg, .aliciaimg {
+    height: 300px;
+    width: 300px;
+}
 
 /* ------------------------- About Page- Desktop Version: 500px ------------------------*/
