@@ -73,7 +73,7 @@ nav a {
 body {
     background-color: #e0ec8c;
 }
-.container {
+.homecontainer {
     margin: 0 auto;
     max-width: 1200px;
 }
@@ -405,3 +405,50 @@ hr {
         transform: scale(0.9);
     }
 }
+
+
+/* ------------------------- Contact Page- Mobile Version ------------------------*/
+
+.contactus h2 {
+    color: black;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 2rem auto;
+    border: 2px solid black;
+    padding: 2rem;
+}
+
+input, textarea{
+    display: block;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin: 20px 0 10px 0;
+    text-transform: uppercase;
+}
+
+.btn-send {
+    border: 0;
+    background-color: #5a287e;
+    padding: .5rem;
+    padding: 15px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-send:hover {
+    background-color: hotpink;
+    cursor: pointer;
+}
+
+
+
