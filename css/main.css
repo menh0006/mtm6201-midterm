@@ -391,7 +391,7 @@ hr {
     max-width: 400px;
 }
 
-/* ------------------------- Products Page- Mobile Version ------------------------*/
+/* ------------------------- Products Page- Desktop Version ------------------------*/
 
 /* maintains same structure, adds hover state animation as desktop users have a mouse */
 
@@ -404,10 +404,15 @@ hr {
     .products img:hover {
         transform: scale(0.9);
     }
+
+    .cup-text, .cake-text, .birthday-text, .custom-text{ 
+        text-align: center;
+        margin-right: 50px;
+    }
 }
 
 
-/* ------------------------- Contact Page- Mobile Version ------------------------*/
+/* ------------------------- Contact Page- Responsive Version------------------------*/
 
 .contactus h2 {
     color: black;
